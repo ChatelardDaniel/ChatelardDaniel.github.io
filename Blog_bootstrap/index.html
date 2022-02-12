@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Blog Edi.pme</title>
+</head>
+<body>
+    <!-- Début de la barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Connexion</a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin de la barre de navigation -->
+    <br><br>
+    
+    <!-- Début de la partie principale -->
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/t4ojhjJDQvg" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title h1">Générique</h5>
+                        <p class="card-text h2">Piloter maboite</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vUYByITRIqY" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">bilan1</h5>
+                        <p class="card-text">simplifier en 10 lignes</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/lx734o7TCXw" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">bilan2</h5>
+                        <p class="card-text">Fond de roulement, BFR, trésorerie</p>
+                        <button class="btn btn-success">Accéder</button>
+                    </div>
+                </div>
+            </div>
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Piloter maboite</h5>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ad quas magni, sapiente ducimus nesciunt officiis quisquam cupiditate dignissimos minus saepe corporis, sit aliquid rem, labore voluptatibus dolore libero rerum!</p>
+                </div>
+                <br>
+                <div class="card-body">
+                    <h5>Formations</h5>
+                    <hr>
+                    <button type="button" class="btn btn-light">Payantes</button>
+                    <button type="button" class="btn btn-dark">Gratuites</button>
+                </div>
+                <br>
+                <div class="card-body">
+                    <h5>Piloter maboite</h5>
+                    <hr>
+                    <!-- rendre la vidéo responsive -->
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/t4ojhjJDQvg" title="YouTube video" allowfullscreen></iframe>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin de la partie principale -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
