@@ -12,7 +12,8 @@
     <!-- Début de la barre de navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="../index.html"><img src="./img/logo_edipme_03.jpg" class="img-fluid" width="70px"
+                    height="70px" alt="Logo Edi.pme"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,16 +21,35 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Articles</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Vidéos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/Blog_bootstrap/compta.html">Compta</a></li>
+                            <li><a class="dropdown-item" href="/Blog_bootstrap/bilan.html">Bilan</a></li>
+                            <li><a class="dropdown-item" href="/Blog_bootstrap/compte_de_resultat.html">Compte de résultat</a></li>
+                            <li><a class="dropdown-item" href="/Blog_bootstrap/carrousel.html">carroussel</a></li>
+                            <li><a class="dropdown-item" href="#">Bilan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Autres sujet</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Connexion</a>
                     </li>
-                </ul>
-                
+                </ul>                
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
                     <button class="btn btn-outline-warning" type="submit">Rechercher</button>
@@ -46,33 +66,14 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="card mb-3">
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/t4ojhjJDQvg" title="YouTube video player"
+                    <iframe width="100%" height="580" src="https://www.youtube.com/embed/t4ojhjJDQvg" title="YouTube video player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                     <div class="card-body">
                         <h5 class="card-title h1">Générique</h5>
                         <p class="card-text h2">Piloter maboite</p>
                     </div>
-                </div>
-                <div class="card mb-3">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vUYByITRIqY" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="card-body">
-                        <h5 class="card-title">bilan1</h5>
-                        <p class="card-text">simplifier en 10 lignes</p>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/lx734o7TCXw" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="card-body">
-                        <h5 class="card-title">bilan2</h5>
-                        <p class="card-text">Fond de roulement, BFR, trésorerie</p>
-                        <button class="btn btn-success">Accéder</button>
-                    </div>
-                </div>
+                </div>                
             </div>
         <div class="col-12 col-md-4">
             <div class="card">
@@ -100,9 +101,17 @@
             </div>
         </div>
     </div>
-
+    </div>
     <!-- Fin de la partie principale -->
-
+    <!-- Début pied de page -->
+    <footer class="bg-primary text-white main-footer">
+       <div class="row">
+           <div class="col sm text-center mt-4">
+               <p>&copy; 2022 Edi.pme | tout droit réservé | conditions d'utilisations | RG</p>
+           </div>
+       </div>
+    </footer>    
+    <!-- Fin pied de page -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
