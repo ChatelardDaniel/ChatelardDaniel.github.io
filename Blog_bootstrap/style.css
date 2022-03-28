@@ -1,3 +1,21 @@
 textarea{
     resize: none;
 }
+
+body{
+    background-image: url(./img/ciel-bleu-01.jpg);
+    background-size: cover;
+
+}
+
+.PilotermaBoite{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(0, 50, 90);
+}
+
+.blog{
+    color: red;
+    font-size: 600%;
+}
